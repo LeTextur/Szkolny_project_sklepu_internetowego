@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: #eeee;
+}
+
+.time-date {
+    margin-top: 15px;
+    text-align: right;
+
+}
+
+.bar {
+    width: 100%;
+    background-color: #0188cc;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.bar p{
+    color: white;
+    padding: 14px 0;
+}
+
+.logo img {
+    height: 125px;
+
+}
+
+.chpassLogo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner img {
+    height: auto;
+    max-width: 100%;
+}
+
+.banner {
+    align-items: center;
+}
+
+.icon {
+
+    display: inline-block;
+    height: 20px;
+    margin-right: 5px;
+    transform: translateY(5px);
+}
+
+.headericon{
+    height: 40px;
+    transform: translateY(15px);
+
+}
+
+.navbuttons {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+.navbuttons a{
+    
+    color: white;
+    background-color: #41a8db;
+    padding: 14px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navconcact {
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.basket {
+    font-weight: bold;
+}
+
+.margin-2px {
+    margin-right: 30px;
+}
+
+.account {
+    margin-right: 75px;
+}
+
+.header-right {
+    margin-right: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.product {
+    border: 2px solid lightgray;
+    background-color: white;
+    width: 33.3%;
+    max-width: 224px;
+    margin-bottom: 40px;
+
+    
+}
+.product img {
+    border-bottom: 3px solid black;
+    max-width: 220px;
+    height: auto;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.products {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 12%;
+}
+
+.category {
+    color: rgb(170, 170, 170);
+    font-size: small;
+    font-weight: bold;
+}
+
+.product-name {
+    color: rgb(100, 100, 255);
+
+}
+
+.price {
+    font-weight: bold;
+    transform: translateY(15%);
+}
+
+.add-btn {
+    font-family: Arial;
+    font-size: larger;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 100%;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.flex-price-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.PassLogoChange img{
+    align-items: center;
+    align-content: center;
+}
+
+.PassBarChange {
+    padding: 13px;
+}
+
+.PassTextCenterChange h4{
+    display: flex;
+    text-align: center;
+
+}
+
+.redFont {
+    color: red;
+}
+
+.cart-products {
+    border: 2px solid lightgray;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.product-image img {
+    height: 123px;
+    margin: 5px auto;
+    display: block;
+    max-width: 200px;
+}
+
+.product-details {
+    margin-left: -10%;
+    margin-top: 12%;
+    text-align: left;
+}
+
+.cart-info {
+    margin-top: 10%;
+
+}
+.card-quantity {
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-quantity img {
+    width: 100%;
+}
+.card-quantity img:hover {
+    cursor: pointer;
+}
+
+.card-quantity form input::-webkit-outer-spin-button, .card-quantity form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card-quantity form input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.quantity {
+    width: 100%;
+    text-align: center;
+    max-width: 40px;
+    border-width: 2px;
+    
+}
+.card-row-total {
+
+    transform: translate(30px, 5px);
+    
+}
+
+.cart-sidebar {
+    display: flex;
+    border: 2px solid lightgray;
+    background-color: white;
+    margin-top: 20px;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.orderButton .cart-button-delivery{
+    color: white;
+    background-color: #41a8db;
+    padding: 14px 0;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.input label {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.input label span {
+    display: block;
+    width: 140px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input label input {
+    padding: 5px;
+    width: 40%;
+}
+
+.cart-products fieldset {
+    border: none;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.cart-products fieldset legend {
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+fieldset.delivery {
+    margin-bottom: 30px;
+}
+
+.binIcon-btn {
+    max-height: 30px;
+    max-width: 30px;
+    background: none;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    transform: translateX(70%);
+    border: none;
+}
+
+.login button, .register button, .formbuttons button {
+    font-size: 14px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #0188cc 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    margin-top: 0.5%;
+  }
+  
+  .login button:hover, .register button:hover, .formbuttons button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #41a8db;
+    transform: translateY(-0.1em);
+  }
+  
+  .login button:active, .register button:active, .formbuttons button:active {
+    box-shadow: inset 0px 0.1em 0.6em #41a8db;
+    transform: translateY(0em);
+  }
